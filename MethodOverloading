@@ -1,0 +1,14 @@
+----------Method Overloading----------
+
+// Method Overloading = Using the same method name but with different parameters. 
+
+Example: 
+
+public static double calcFeetAndInchesToCentimetres(double feet, double inches) {
+	
+}
+
+
+public static double calcFeetAndInchesToCentimetres(double inches) {
+	
+}
