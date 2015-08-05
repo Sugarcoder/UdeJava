@@ -1,0 +1,83 @@
+----------KEYWORDS AND EXPRESSIONS----------
+
+// Anything in a bracket is an Expression. 
+
+Ex: if (abc == true)... , int score = 100;
+
+
+
+----------Code Block----------
+
+"Scope" = what is inside the code block 
+
+
+// If you create a variable inside a code block, you cannot access it outside of the code block. 
+
+// However, you can access a variable from inside a code block if the variable started from outside the code block.
+
+// As soon as the variable is executed from the code block, it is gone and you can't use it anymore. 
+
+
+
+// If you are reusing variables, you don't have to define it (with int, boolean, etc).
+
+
+
+----------Methods----------
+
+// Method = a code block that is already created. 
+
+// Example: 'Main' is a method ( public static void main(String[] args) )
+
+
+// Method needs to be inside the class, and use 'public static'. 
+
+
+// To execute a method, write the method like this: 'calculateScore();'
+
+
+// You can pass information into a method, but adding parameters. 
+
+Ex: 
+
+calculateScore(boolean gameOver, int score, intLevelCompleted, int bonus) {     // Only put data type and variable.
+	
+}
+
+
+
+// Arguments  = the actual values that we want to send to the method (when we execute the method). 
+
+Ex: calculateScore(true, 800, levelCompleted, bonus);
+
+calculateScore(true, 1000, 8, 200);
+
+
+// Arguments need to match the parameters that we defined for the method. 
+
+
+// If you define parameters, you don't have to create anything in the method at all. 
+
+
+// If you have a method with parameters, you don't need to define the variables anymore. You just call the argument when you execute the method. :D
+
+
+// void = Don't send any value back to the executed method
+
+// If you are creating a method and you don't want to return anything, use 'void'. 
+
+Ex: public static int calculateScore() {...}
+
+
+
+// You can create a variable and assign it to a method result. 
+
+Ex: int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+
+
+Random Example: 
+
+public static void displayHighScorePosition(String playerName, int position) {
+	System.out.println(playerName + "managed to get into position" + position + "on the high score table");
+}
+
