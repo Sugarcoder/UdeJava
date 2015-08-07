@@ -1,0 +1,28 @@
+for(initialize; termination; increment or decrement) 
+
+
+Initialize - initialize the loop and executed once
+Termination - For loop won't exit till the 'termination' is set to false
+Increment - Adds to the loop
+
+Example: 
+
+for(int i = 0; i < 5; i++) {
+	System.out.println(i);
+}
+
+
+Example with 'break':
+
+int count = 0;    // make sure that the variable is placed outside of the FOR loop.
+
+for (int i = 10; i < 50; i++) {
+	if(isPrime(i)) {
+	System.out.println(i);
+	count++;
+	}
+	if (count == 3) {
+		System.out.println("exiting the loop");
+		break;
+	}
+}
