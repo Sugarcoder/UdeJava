@@ -1,0 +1,39 @@
+----------WHILE Loop----------
+
+WHILE Loop - loop something a certain number of times. 
+
+Example: 
+
+int count = 0;
+while (count != 5) {
+	System.out.println("count value is " + count);
+	count++;     // If you don't add this, it will go in an infinite loop.
+}
+
+
+
+Example with boolean: 
+
+while(true) {
+	if (count == 6) {
+		break;
+	}
+	System.out.println(count);
+	count++;
+}
+
+
+
+
+----------DO-WHILE Loop----------
+
+DO-While - When you don't know how many times to count, just keep going until it stops. 
+
+
+Example: 
+
+count = 1;
+do {
+	System.out.println(count);
+	count++;
+} while(count != 6);
