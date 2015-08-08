@@ -1,0 +1,26 @@
+----------Objects Explanation----------
+
+REAL WORLD OBJECTS
+
+- Real world objects have 2 major characteristics: the State and the Behavior
+
+Example: 
+
+Computer...
+
+State = hard drive size, ram size, monitor size, etc. 
+
+Behavior = booting up, shutting down, printing something, beeping, etc.
+
+
+
+SOFTWARE OBJECTS
+
+- Software Objects are similar to real world objects. 
+
+States = Fields
+
+Behaviors = Methods
+
+
+- Class = a blueprint for creating objects. 
