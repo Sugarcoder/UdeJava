@@ -18,7 +18,7 @@ ACCESS MODIFIERS (Basic)
 
 
 
-----------Setter and Getter----------
+----------Getter and Setter----------
 
 - If you use setter and getter, you can access private fields. 
 
@@ -34,6 +34,11 @@ public class Car {
     private String engine;
     private String color;
 
+    
+        public String getModel() {
+        return this.model;
+    }
+
 
     public void setModel(String model) {         
         String validModel = model.toLowerCase();
@@ -44,9 +49,6 @@ public class Car {
         }
     }
 
-    public String getModel() {
-        return this.model;
-    }
 }
 
 
