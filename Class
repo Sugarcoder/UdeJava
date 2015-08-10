@@ -1,0 +1,67 @@
+- Class = a blueprint for creating objects. 
+
+
+ACCESS MODIFIERS (Basic)
+
+- public = access modifier (unrestricted access to the class)
+
+- private = no other class can access it
+
+- protected = only classes in the package can access the class
+
+
+
+- Local variables = variables that belong to that specific method, and cannot access outside of the method
+
+
+- Fields (better to set as 'private')
+
+
+
+----------Setter and Getter----------
+
+- If you use setter and getter, you can access private fields. 
+
+Example:
+
+(In Car.java) 
+
+public class Car {
+
+    private int doors;
+    private int wheels;
+    private String model;
+    private String engine;
+    private String color;
+
+
+    public void setModel(String model) {         
+        String validModel = model.toLowerCase();
+        if (validModel.equals("carrera") || validModel.equals("commodore")) {
+            this.model = model;
+        } else {
+            this.model = "Unknown";
+        }
+    }
+
+    public String getModel() {
+        return this.model;
+    }
+}
+
+
+
+
+(In Main.java)
+
+public class Main {
+    public static void main(String[] args) {
+        Car porsche = new Car();     // Porshe is the object type
+        // Car holden = new Car();
+
+        porsche.setModel("Carrera");
+
+        System.out.println("Car model is " + porsche.getModel());
+
+    }
+}
