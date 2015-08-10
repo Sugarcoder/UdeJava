@@ -1,0 +1,124 @@
+----------Constructors----------
+
+- Constructors help with initializing whatever it is you are creating (only called once)
+
+- Anytime you say "new ____- ()", you created a constructor.
+
+
+- Constructors can be overloaded. 
+
+
+Example: 
+
+(In BankAcc.java)
+
+
+public class BankAcc {
+
+    private String number;
+    private double balance;
+    private String customerName;
+    private String email;
+    private String phoneNumber;
+
+
+    // creating a constructor
+    public BankAcc(String number, double balance, String customerName, String email, String phoneNumber) {
+        System.out.println("Account constructors are called");
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
+
+
+    public void deposit(double depositAmount) {
+        this.balance += depositAmount;
+        System.out.println("Deposit of " + depositAmount + " made. New balance is " + this.balance);
+    }
+
+    
+    public void withdrawal(double withdrawAmount) {
+        if(withdrawAmount <= 0) {
+            System.out.println("Only " + this.balance + "available. Withdrawal not processed.");
+        } else {
+            this.balance -= withdrawAmount;
+            System.out.println("Withdrawl of " + withdrawAmount + " processed. Remaining balance is " + this.balance);
+        }
+    }
+    
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+    
+}
+
+
+
+(In Main.java)
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        BankAcc bobsAccount = new BankAcc("12345", 0.00, "Bob Brown", "myemail@bob.com", "123-4567");
+
+        System.out.println(bobsAccount.getNumber());
+        System.out.println(bobsAccount.getBalance());
+
+        bobsAccount.withdrawal(100.0);
+
+        bobsAccount.deposit(50.0);
+        bobsAccount.withdrawal(100.0);
+
+        bobsAccount.deposit(51.0);
+        bobsAccount.withdrawal(100.0);
+        
+    }
+    
+}
+
+
+
+
+
