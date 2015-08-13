@@ -1,1 +1,24 @@
-----------Inheritance----------
+----------Inheritance ('extends')-----------
+
+
+- Objects share common characteristics, but each one has their uniqueness as well. 
+
+Example: Computers - Ipad, PC, Laptop
+
+
+- Create classes that inherit from other classes
+
+
+- Create a basic class like Animal, with all these common characteristic traits
+
+
+- 'extends' keyword = will use from the other object (Dog extends Animal)
+
+
+- 'super' keyword (inheriting from) = calls from the constructor of the Class that we are extending from
+
+
+
+- Override = something that can be overriden (instead of using one method, you use another one because it is unique to that specific class, so you override the 'super' class)
+
+Example: Instead of use eat() from Animal class (this is the 'super' class), use chew() for Dog class.
