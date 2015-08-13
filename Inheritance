@@ -1,5 +1,9 @@
 ----------Inheritance ('extends')-----------
 
+Inheritance = 'Is A' relationship 
+
+Example: Dog IS A Animal
+
 
 - Objects share common characteristics, but each one has their uniqueness as well. 
 
