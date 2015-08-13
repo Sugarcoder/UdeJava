@@ -1,0 +1,11 @@
+Composition = deals with a 'Has A' relationship (what a class is composed of)
+
+Example: Computer 'HAS A' motherboard, monitor, case
+
+
+Note: See 'UdeJavaComposition' for a detailed example. 
+
+
+
+
+
