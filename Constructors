@@ -48,7 +48,7 @@ public class BankAcc {
             System.out.println("Only " + this.balance + "available. Withdrawal not processed.");
         } else {
             this.balance -= withdrawAmount;
-            System.out.println("Withdrawl of " + withdrawAmount + " processed. Remaining balance is " + this.balance);
+            System.out.println("Withdrawal of " + withdrawAmount + " processed. Remaining balance is " + this.balance);
         }
     }
     
