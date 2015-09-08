@@ -1,6 +1,6 @@
 ----------Constructors----------
 
-- Constructors help with initializing an object.
+- Constructors help with initializing an object that you are creating.
 
 - A constructor in a class is a special type of subroutine called to create an object. 
 It prepares the new object for use, often accepting arguments that the constructor uses to set required member variables.
