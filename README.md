@@ -14,4 +14,4 @@
 
 - UdeJavaPolymorphismChallenge = Polymorphism Challenge
 
-- UdeJavaOOPChallenge
+- UdeJavaOOPChallenge = Object-Oriented Challenge
