@@ -59,14 +59,17 @@ calculateScore(true, 1000, 8, 200);
 // If you define parameters, you don't have to create anything in the method at all. 
 
 
-// If you have a method with parameters, you don't need to define the variables anymore. You just call the argument when you execute the method. :D
+// If you have a method with parameters, you don't need to define the variables anymore. 
+You just call the argument when you execute the method. 
 
+
+---------VOID---------
 
 // void = Don't send any value back to the executed method
 
 // If you are creating a method and you don't want to return anything, use 'void'. 
 
-Ex: public static int calculateScore() {...}
+Ex: public static int calculateScore() {.....}
 
 
 
@@ -75,7 +78,7 @@ Ex: public static int calculateScore() {...}
 Ex: int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
 
 
-Random Example: 
+Example: 
 
 public static void displayHighScorePosition(String playerName, int position) {
 	System.out.println(playerName + "managed to get into position" + position + "on the high score table");
