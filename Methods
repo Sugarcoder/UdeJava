@@ -36,7 +36,7 @@ Ex: if (abc == true)... , int score = 100;
 // To execute a method, write the method like this: 'calculateScore();'
 
 
-// You can pass information into a method, but adding parameters. 
+// You can pass information into a method, by adding parameters. 
 
 Ex: 
 
