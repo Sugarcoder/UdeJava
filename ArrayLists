@@ -1,0 +1,18 @@
+Lists and ArrayLists
+
+- You can create lists in arrays (sequence of numbers)
+
+- List = An ordered collection (aka sequence). 
+The user of this interface has precise control over where in the list each element is inserted. 
+
+
+----------ArrayList----------
+
+- ArrayList = inherits from AbstractList, List interface
+
+- Resizable-array implmenentation of the List interface. Implements all optional list operations, and permits all elements. 
+
+
+- ArrayList can hold objects. It is different than defining an array (int[] myNumbers;).
+
+- ArrayList is a class, so it can have its own constructor.
