@@ -11,7 +11,6 @@ switch (switchValue) {
     case 2:
         System.out.println("Value was 2");
         break;
-
     case 3:case 4:case 5:
     	System.out.println("was a 3, or a 4, or a 5");      // This is for repetitiveness
      	break; 
@@ -21,12 +20,9 @@ switch (switchValue) {
 }
 
 
-
 // If-Else is more flexible than Switch. Switch is only testing for those statements.
 
-
 'char' Example: 
-
 
 char charValue = 'A';
 
@@ -39,7 +35,6 @@ char charValue = 'A';
             case 'C':case 'D':case 'E':
                 System.out.println(charValue + " was found");
                 break;
-           
             default:
                 System.out.println("Could not find A, B, C, D, or E");
                 break;
